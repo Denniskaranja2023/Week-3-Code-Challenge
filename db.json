@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Coping with Anxiety in a Fast-Paced World",
+      "author": "Dr. Elaine Porter",
+      "image": "https://images.unsplash.com/photo-1520974735194-8fdf83eac1a7",
+      "content": "Anxiety can feel overwhelming, especially in today's relentless environment. But techniques like deep breathing, mindfulness, and seeking support can help restore calm and balance. Remember, seeking help is a strength, not a weakness." 
+    },
+    {
+      "id": 2,
+      "title": "The Goodness of Jesus Christ: A Hope That Never Fails",
+      "author": "Pastor Jonathan Ellis",
+      "image": "https://images.unsplash.com/photo-1518972559570-7cc1309f3229",
+      "content": "In times of brokenness, fear, or loss, the love of Jesus Christ offers hope and healing. His teachings of forgiveness, grace, and eternal life continue to transform lives across generations. When we lean on Him, we find peace beyond understanding."
+    },
+    {
+      "id": 3,
+      "title": "Financial Literacy: A Path to Freedom",
+      "author": "James Carter",
+      "image": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad",
+      "content": "Understanding your finances is a powerful step toward independence. Learning how to budget, avoid debt traps, and invest wisely equips you to build a secure future and reduce daily stress."
+    },
+    {
+      "id": 4,
+      "title": "Grief and Healing: When Words Are not Enough",
+      "author": "Rebekah Moore",
+      "image": "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c",
+      "content": "Grieving the loss of a loved one is never easy. The process is deeply personal, but support from others and giving yourself grace during the journey can slowly rebuild peace and meaning."
+    },
+    {
+      "id": 5,
+      "title": "Work-Life Balance: Protecting Your Peace",
+      "author": "Monica Liu",
+      "image": "https://images.unsplash.com/photo-1527766833261-b09c3163a791",
+      "content": "In the pursuit of success, we often overlook rest and relationships. Establishing a healthy work-life balance protects your mental health and allows for a fuller, more purposeful life."     
+    }
+  ]
+}
