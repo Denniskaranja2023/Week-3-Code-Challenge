@@ -105,3 +105,9 @@ input{
     border-radius:0.5rem ;
     background-color: rgba(249, 250, 248, 0.411);
 }
+.button-class{
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 1px solid green;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
