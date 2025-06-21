@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog manager</title>
-    <script defer src="./index.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="bg">
@@ -17,13 +16,11 @@
     </navbar>
     <section id="container">
         <div id="post-list">
-           
         </div>
         <div id="post-detail">
-
         </div>
         <div id="new-post-form">
-         <h3 style="display: flex; align-items: baseline; justify-content: center;"><div style="background-color: greenyellow; width: 30px; height:30px; border-radius: 50%; border: 1px solid black; text-align: center;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXBsdXMtaWNvbiBsdWNpZGUtcGx1cyI+PHBhdGggZD0iTTUgMTJoMTQiLz48cGF0aCBkPSJNMTIgNXYxNCIvPjwvc3ZnPg=="></div> Add New post</h3>
+         <h2 style="display: flex; align-items: center; justify-content: center;"> Add New post <div style="background-color: greenyellow; border-radius: 0.2rem; margin-left: 2%; width: 25px; height:25px; border: 1px solid black; text-align: center;"><span style="color: white;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXBsdXMtaWNvbiBsdWNpZGUtcGx1cyI+PHBhdGggZD0iTTUgMTJoMTQiLz48cGF0aCBkPSJNMTIgNXYxNCIvPjwvc3ZnPg=="></span></div></h2>
          <form style="display: flex; flex-direction: column; align-items: center;">
            <label for="title">Title</label>
              <input type="text" name="title" id="title" placeholder="This exciting topic">
@@ -33,8 +30,10 @@
              <input type="url" name="image" id="image" placeholder="https://pathToImage.com">
            <label for="content">Content</label>
              <input type="text" name="content" id="content" placeholder="Your text here">
+           <input type="submit" style="background-color: greenyellow; width:30%">
          </form>
         </div>
     </section>
+    <script src="./index.js"></script>
 </body>
 </html>
