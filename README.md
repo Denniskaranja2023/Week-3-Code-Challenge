@@ -8,8 +8,8 @@ list window can be clicked to view the contents of the post on the smaller post 
 content
 
 # Screenshots
-![Screenshot from 2025-06-22 18-40-57](https://github.com/user-attachments/assets/80cb610c-5da4-40e7-bc6e-1ef1c5786f09)
 
+![Screenshot from 2025-06-22 19-06-28](https://github.com/user-attachments/assets/888a784f-60df-409b-bac2-65c6aa8c891f)
 
 
 ![Screenshot from 2025-06-22 19-00-03](https://github.com/user-attachments/assets/b89c1fb7-5f9a-48d3-89ee-e293b51048f1)
@@ -30,7 +30,7 @@ You will need a computer,tablet or phone and access to the internet
 
 # View Live site.
 
-You may view the live site of the application through https://denniskaranja2023.github.io/Week-3-Code-Challenge/.Take note that your JSON server needs to be running in your device terminal for 
+You may view the live site of the application through https://denniskaranja2023.github.io/Week-3-Code-Challenge/  Take note that your JSON server needs to be running in your device terminal for 
 changes to reflect efficiently when you launch the live site.
 
 To navigate through the page:
