@@ -1,1 +1,99 @@
-# Week-3-Code-Challenge
+# WritePro BlogManager:
+An efficient way to manage blog posts relevant for writers of quick-to-read posts
+                 By Dennis Karanja
+# Description
+WritePro is a simple blog-posts manager efficiient for managing simple quick-to-read blogs. A user can view their collection of blog posts on the post-list window. Each post title on the post-list window can be clicked to view the contents of the post on the smaller post detail window. A new post can also be created through the Add new post window. Posts accept both text and image content
+# Screenshots
+![Screenshot from 2025-06-21 17-02-11](https://github.com/user-attachments/assets/0bf3d201-f9bc-403f-bb70-44c2cd9414b7)
+# Features:
+
+1.Post-list window: Offers a summary of all the posts available for viewership
+
+2.Post-detail window: Allows one to view a post by clicking on the title of a post available on the post-list window
+
+3.Add new-post window: A user can add a new post here by inputing the author, title,content and image url for the new post
+
+# How to use:
+
+# Requirements
+
+You will need a computer,tablet or phone and access to the internet
+
+# View Live site.
+
+You may view the live site of the application through https://denniskaranja2023.github.io/Week-2-Code-challenge/
+
+-First input the event type e.g Birthday to generate a title for your list. The title may be deleted by clicking it
+
+-Enter a guest input and see the name appear on the guest list window under your event title
+
+-Delete a guest entry using the delete button on it and mark the guest as attending or not attending using the toggle button
+
+-Observe a deleted entry appear in the deleted guest list and delete the entry by clicking on it.
+
+-Invite manager accepts a maximum of ten guest entries.
+
+Installation Process
+
+1.clone this repository using:
+
+        git@github.com:Denniskaranja2023/Week-2-Code-challenge.git
+2.Navigate to the project directory:
+
+        cd Week-2-Code-challenge
+3.Open the index.html file to view content of page:
+
+        open.index.html
+Technologies used:
+
+-JavaSCript(ES6) -HTML & CSS
+
+Support and Contact details
+
+For any questions or clarifications, reach out by email: denniswanyeki2021@gmail.com
+
+License:
+
+MIT License
+
+Copyright (c) 2025 Denniskaranja2023
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+About
+No description, website, or topics provided.
+Resources
+ Readme
+License
+ MIT license
+ Activity
+Stars
+ 0 stars
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package
+Deployments
+6
+ github-pages last week
++ 5 deployments
+Languages
+JavaScript
+52.9%
+ 
+CSS
+28.2%
+ 
+HTML
+18.9%
+Footer
