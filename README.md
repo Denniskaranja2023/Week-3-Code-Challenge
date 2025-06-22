@@ -1,9 +1,16 @@
 # WritePro BlogManager:
 An efficient way to manage blog posts relevant for writers of quick-to-read posts
+
                  By Dennis Karanja
 # Description
-WritePro is a simple blog-posts manager efficiient for managing simple quick-to-read blogs. A user can view their collection of blog posts on the post-list window. Each post title on the post-list window can be clicked to view the contents of the post on the smaller post detail window. A new post can also be created through the Add new post window. Posts accept both text and image content
+WritePro is a simple blog-posts manager efficiient for managing simple quick-to-read blogs. A user can view their collection of blog posts on the post-list window. Each post title on the post-
+
+list window can be clicked to view the contents of the post on the smaller post detail window. A new post can also be created through the Add new post window. Posts accept both text and image 
+
+content
 # Screenshots
+![Screenshot from 2025-06-22 18-40-57](https://github.com/user-attachments/assets/80cb610c-5da4-40e7-bc6e-1ef1c5786f09)
+
 ![Screenshot from 2025-06-21 17-02-11](https://github.com/user-attachments/assets/0bf3d201-f9bc-403f-bb70-44c2cd9414b7)
 # Features:
 
@@ -21,17 +28,13 @@ You will need a computer,tablet or phone and access to the internet
 
 # View Live site.
 
-You may view the live site of the application through https://denniskaranja2023.github.io/Week-2-Code-challenge/
+You may view the live site of the application through https://denniskaranja2023.github.io/Week-3-Code-Challenge/
 
--First input the event type e.g Birthday to generate a title for your list. The title may be deleted by clicking it
+-Click the title of an available post on the post list window and view its contents on the post-detail window
 
--Enter a guest input and see the name appear on the guest list window under your event title
+-Click delete on the post on the detail window to remove the post from the window
 
--Delete a guest entry using the delete button on it and mark the guest as attending or not attending using the toggle button
-
--Observe a deleted entry appear in the deleted guest list and delete the entry by clicking on it.
-
--Invite manager accepts a maximum of ten guest entries.
+-Input the title,author,image URL and conents of a newpost on the new post form and click submit to see it appear on the post list form
 
 Installation Process
 
