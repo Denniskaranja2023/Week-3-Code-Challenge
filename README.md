@@ -1,15 +1,17 @@
-# WritePro BlogManager:
+ # WritePro blog manager:
 An efficient way to manage blog posts relevant for writers of quick-to-read posts
 
                  By Dennis Karanja
 # Description
-WritePro is a simple blog-posts manager efficiient for managing simple quick-to-read blogs. A user can view their collection of blog posts on the post-list window. Each post title on the post-
+WritePro is a simple blog-posts manager efficient for managing simple quick-to-read blogs. A user can view their collection of blog posts on the post-list window. Each post title on the post-
 
 list window can be clicked to view the contents of the post on the smaller post detail window. A new post can also be created through the Add new post window. Posts accept both text and image 
 
 content
 # Screenshots
 ![Screenshot from 2025-06-22 18-40-57](https://github.com/user-attachments/assets/80cb610c-5da4-40e7-bc6e-1ef1c5786f09)
+
+
 
 ![Screenshot from 2025-06-21 17-02-11](https://github.com/user-attachments/assets/0bf3d201-f9bc-403f-bb70-44c2cd9414b7)
 # Features:
@@ -28,7 +30,11 @@ You will need a computer,tablet or phone and access to the internet
 
 # View Live site.
 
-You may view the live site of the application through https://denniskaranja2023.github.io/Week-3-Code-Challenge/
+You may view the live site of the application through https://denniskaranja2023.github.io/Week-3-Code-Challenge/.Take note that your JSON server needs to be running in your device terminal for 
+
+changes to reflect efficiently when you launch the live-site
+
+To navigate through the page:
 
 -Click the title of an available post on the post list window and view its contents on the post-detail window
 
@@ -36,28 +42,35 @@ You may view the live site of the application through https://denniskaranja2023.
 
 -Input the title,author,image URL and conents of a newpost on the new post form and click submit to see it appear on the post list form
 
-Installation Process
+# Installation Process
 
 1.clone this repository using:
 
-        git@github.com:Denniskaranja2023/Week-2-Code-challenge.git
+        git@github.com:Denniskaranja2023/Week-3-Code-Challenge.git
 2.Navigate to the project directory:
 
         cd Week-2-Code-challenge
-3.Open the index.html file to view content of page:
+3.Ensure you have installed a JSON-server on your terminal. Then run the following command to start monitoring the db.json file in the repository.
+        
+        json-server --watch db.json
+
+4.Open the index.html file to view content of page:
 
         open.index.html
-Technologies used:
 
--JavaSCript(ES6) -HTML & CSS
+# Technologies used:
 
-Support and Contact details
+-JavaSCript(ES6) 
+
+-HTML & CSS
+
+# Support and Contact details
 
 For any questions or clarifications, reach out by email: denniswanyeki2021@gmail.com
 
-License:
+# License:
 
-MIT License
+# MIT License
 
 Copyright (c) 2025 Denniskaranja2023
 
@@ -67,36 +80,3 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-About
-No description, website, or topics provided.
-Resources
- Readme
-License
- MIT license
- Activity
-Stars
- 0 stars
-Watchers
- 0 watching
-Forks
- 0 forks
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Deployments
-6
- github-pages last week
-+ 5 deployments
-Languages
-JavaScript
-52.9%
- 
-CSS
-28.2%
- 
-HTML
-18.9%
-Footer
