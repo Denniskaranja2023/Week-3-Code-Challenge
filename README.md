@@ -1,7 +1,7 @@
  # WritePro blog manager:
 An efficient way to manage blog posts relevant for writers of quick-to-read posts
 
-                 By Dennis Karanja
+By Dennis Karanja
 # Description
 WritePro is a simple blog-posts manager efficient for managing simple quick-to-read blogs. A user can view their collection of blog posts on the post-list window. Each post title on the post-
 
