@@ -4,16 +4,16 @@ An efficient way to manage blog posts relevant for writers of quick-to-read post
 By Dennis Karanja
 # Description
 WritePro is a simple blog-posts manager efficient for managing simple quick-to-read blogs. A user can view their collection of blog posts on the post-list window. Each post title on the post-
-
 list window can be clicked to view the contents of the post on the smaller post detail window. A new post can also be created through the Add new post window. Posts accept both text and image 
-
 content
+
 # Screenshots
 ![Screenshot from 2025-06-22 18-40-57](https://github.com/user-attachments/assets/80cb610c-5da4-40e7-bc6e-1ef1c5786f09)
 
 
 
-![Screenshot from 2025-06-21 17-02-11](https://github.com/user-attachments/assets/0bf3d201-f9bc-403f-bb70-44c2cd9414b7)
+![Screenshot from 2025-06-22 19-00-03](https://github.com/user-attachments/assets/b89c1fb7-5f9a-48d3-89ee-e293b51048f1)
+
 # Features:
 
 1.Post-list window: Offers a summary of all the posts available for viewership
@@ -31,8 +31,7 @@ You will need a computer,tablet or phone and access to the internet
 # View Live site.
 
 You may view the live site of the application through https://denniskaranja2023.github.io/Week-3-Code-Challenge/.Take note that your JSON server needs to be running in your device terminal for 
-
-changes to reflect efficiently when you launch the live-site
+changes to reflect efficiently when you launch the live site.
 
 To navigate through the page:
 
