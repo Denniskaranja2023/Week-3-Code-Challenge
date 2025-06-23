@@ -48,7 +48,7 @@ To navigate through the page:
         git@github.com:Denniskaranja2023/Week-3-Code-Challenge.git
 2.Navigate to the project directory:
 
-        cd Week-2-Code-challenge
+        cd Week-3-Code-Challenge
 3.Ensure you have installed a JSON-server on your terminal. Then run the following command to start monitoring the db.json file in the repository.
         
         json-server --watch db.json
