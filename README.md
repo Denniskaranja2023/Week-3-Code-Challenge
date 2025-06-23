@@ -49,13 +49,15 @@ To navigate through the page:
 2.Navigate to the project directory:
 
         cd Week-3-Code-Challenge
-3.Ensure you have installed a JSON-server on your terminal. Then run the following command to start monitoring the db.json file in the repository.
+3.Open the index.html file to view content of page:
+
+        open.index.html
+
+4.Ensure you have installed a JSON-server on your terminal. Then run the following command to start monitoring the db.json file in the repository.
         
         json-server --watch db.json
 
-4.Open the index.html file to view content of page:
-
-        open.index.html
+5. Once you run the JSON server, refresh the browser window showing your index.html file in order to be able to view the page content
 
 # Technologies used:
 
