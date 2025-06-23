@@ -1,7 +1,7 @@
 //function to get posts from the server and display them on the post-list div
 function displayPosts(){
     const postList= document.getElementById("post-list")
- return fetch("http://localhost:3000/posts").then(res=>res.json()).then(posts=> postList.innerHTML=posts.map(createDisplay).join(" "))
+ return fetch("https://writepro-blogmanager.onrender.com/posts").then(res=>res.json()).then(posts=> postList.innerHTML=posts.map(createDisplay).join(" "))
 }
 
 //function that takes the argument of a post from the server and structures the display on the post-list div
@@ -20,7 +20,7 @@ function handlePostClick(){
    Array.from(titles).forEach(title=> title.addEventListener('click', e=>{
     const post=e.target.closest('.post')
     const detailWindow= document.getElementById('post-detail')
-    fetch(`http://localhost:3000/posts/${post.id}`).then(res=>res.json()).then(
+    fetch(`https://writepro-blogmanager.onrender.com/posts/${post.id}`).then(res=>res.json()).then(
         data => {detailWindow.innerHTML= `<div class="detailDisplay">
               <h3 style="text-align:center; text-decoration: underline;"> ${data.title}</h3>
               <img style= "width:80%; margin-left:10%; height:150px; border:1px solid black;" src=${data.image}>
@@ -61,7 +61,7 @@ function addNewEventListener() {
     const newImage = form.elements['image'].value;
     const newContent = form.elements['content'].value;
     //post the values to the server
-    fetch('http://localhost:3000/posts', {
+    fetch('https://writepro-blogmanager.onrender.com/posts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
