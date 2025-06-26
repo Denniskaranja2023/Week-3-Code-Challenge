@@ -21,7 +21,7 @@ function handlePostClick(){
     const post=e.target.closest('.post')
     const detailWindow= document.getElementById('post-detail')
     fetch(`https://writepro-blogmanager.onrender.com/posts/${post.id}`).then(res=>res.json()).then(
-        data => {detailWindow.innerHTML= `<div class="detailDisplay">
+        data => {detailWindow.innerHTML= `<div class="detailDisplay" id="${post.id}">
               <h3 style="text-align:center; text-decoration: underline;"> ${data.title}</h3>
               <img style= "width:80%; margin-left:10%; height:150px; border:1px solid black;" src=${data.image}>
               <p> ${data.content}</p>
@@ -30,7 +30,7 @@ function handlePostClick(){
                 <button id='delete' class='button-class'> Delete <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2-icon lucide-trash-2"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/></svg></button>
                 <button id='edit' class='button-class'> Edit <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil-icon lucide-pencil"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/><path d="m15 5 4 4"/></svg></button>
               </div>
-              </div>`
+              </div>`;
         deletePost();//Loads the delete post function once a post is created on the view window
    })
    })
@@ -38,15 +38,31 @@ function handlePostClick(){
 
 function deletePost(){
   const postWindow = document.getElementById('post-detail');
-  const deleteButton = postWindow.querySelector('#delete'); // Use querySelector to select the delete button
-  //add a click event to the button to enable removal from the DOM
+  const deleteButton = postWindow.querySelector('#delete');
+
   deleteButton.addEventListener('click', e => {
-    const display = e.target.closest('.detailDisplay');
-    if (display) {
-      display.remove(); // Remove the post detail from the DOM
-      
-}}
-)}
+    const detailDisplay = e.target.closest('.detailDisplay');
+    const postId = postWindow.querySelector('.detailDisplay').id;
+    
+    const confirmMessage= confirm("Do you want to permanently delete this post?")
+    if(!confirmMessage) return;
+
+    fetch(`https://writepro-blogmanager.onrender.com/posts/${postId}`, {
+      method: 'DELETE'
+    })
+    .then(res => {
+      if (!res.ok) throw new Error("Failed to delete post");
+      // Remove from the detail window
+      detailDisplay.remove();
+      // Remove from the post list
+      const postInList = document.getElementById(postId);
+      if (postInList) postInList.remove();
+    })
+    .catch(err => {
+      alert(`Delete failed: ${err.message}`);
+    });
+  });
+}
 
 //function that enables posting of inputed new post to the server
 function addNewEventListener() {
@@ -77,6 +93,7 @@ function addNewEventListener() {
     .then(()=> {
       //calls displayPost function to display all posts on the post-list div including the new post
       displayPosts()
+      handlePostClick() //refresh handle postClick
       form.reset(); // Clear the form after submission
     })
     .catch(error => {
